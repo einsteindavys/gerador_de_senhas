@@ -6,7 +6,7 @@ import os
 class GerarSenha:
     def __init__(self):
 # Layout do popup
-        sg.theme('Default')
+        tema.theme('Default')
         layout = [
             [tema.Text('Site', size=(10, 1)),tema.Input(key='site', size=(20, 1))],
             [tema.Text('Login', size=(10, 1)),tema.Input(key='login', size=(20, 1))],
