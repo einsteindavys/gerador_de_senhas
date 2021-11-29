@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 import os
 
 
-class PassGen:
+class GerarSenha:
     def __init__(self):
 # Layout do popup
         sg.theme('Default')
@@ -41,5 +41,6 @@ class PassGen:
         print('Arquivo salvo')
 
 
-gen = PassGen()
-gen.Iniciar()
+gerador = GerarSenha()
+gerador.Iniciar()
+
