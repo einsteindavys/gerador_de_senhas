@@ -5,7 +5,7 @@ import os
 
 class GerarSenha:
     def __init__(self):
-# Layout do popup
+
         sg.theme('Default')
         layout = [
             [sg.Text('Site', size=(10, 1)),sg.Input(key='site', size=(20, 1))],
@@ -14,7 +14,7 @@ class GerarSenha:
             [sg.Output(size=(32, 5))],
             [sg.Button('Gerar Senha')]
         ]
-# Atributos do popup
+
         self.janela = sg.Window('Gerador de Senhas', layout)
 
     def Iniciar(self):
